@@ -16,14 +16,6 @@ locals {
       visibility         = "public"
     }
 
-    "fem-eci-terraform-aws-network" = {
-      description        = "Automation for GitHub"
-      gitignore_template = "Terraform"
-      name               = "fem-eci-terraform-aws-network"
-      topics             = ["frontend-masters", "terraform"]
-      visibility         = "public"
-    }
-
     "fem-eci-terraform-aws-cluster" = {
       description        = "Automation for GitHub"
       gitignore_template = "Terraform"
@@ -31,5 +23,22 @@ locals {
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
     }
+
+    "fem-eci-terraform-aws-network" = {
+      description        = "Automation for GitHub"
+      gitignore_template = "Terraform"
+      name               = "fem-eci-terraform-aws-network"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "public"
+    }
+    
+    "fem-eci-terraform-aws-sample" = {
+      description        = "Automation for GitHub test puprose"
+      gitignore_template = "go"
+      name               = "fem-eci-terraform-aws-network"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "public"
+    }
+
   }
 }
