@@ -32,13 +32,6 @@ locals {
       visibility         = "public"
     }
     
-    "fem-eci-terraform-aws-sample" = {
-      description        = "Automation for GitHub test puprose"
-      gitignore_template = "Go"
-      name               = "fem-eci-terraform-aws-sample"
-      topics             = ["frontend-masters", "terraform"]
-      visibility         = "public"
-    }
 
   }
 }
